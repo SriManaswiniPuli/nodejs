@@ -118,7 +118,7 @@ let movies = [
     id: "109",
   },
 ];
-app.use(cors)
+app.use(cors())
 // const PORT = 4000;
 app.get("/movies", function (request, response) {
   response.send(movies);
